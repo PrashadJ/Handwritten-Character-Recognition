@@ -5,7 +5,7 @@ Steps of processing the image and identifying the digit:
 1. Deskewing (Pre-processing)
 Aligning digits before building a classifier produces superior results. In the case of faces, alignment is rather obvious — you can apply a similarity transformation to an image of a face to align the two corners of the eyes to the two corners of a reference face.
 
-img-1
+![image](https://user-images.githubusercontent.com/48985829/139740570-9d06691a-a099-4a92-863b-14816968a345.png)
 
 2. Calculate the Histogram of Oriented Gradients (HOG) descriptor:
 
@@ -27,14 +27,14 @@ img-1
 => Total of 5000 samples of data.
 => Each individual character has dimensions: 20 x 20 pixels.
 
-img-2
+![image](https://user-images.githubusercontent.com/48985829/139740753-eba6e18e-e797-4ac4-8bda-fbcb16985836.png)
 
 4. Pocessing steps: 
 
-img-3
+![image](https://user-images.githubusercontent.com/48985829/139740844-cf80a995-74ed-413a-8800-662d30b04f43.png)
 
 5. END-RESULT:
 
-img-4
+![image](https://user-images.githubusercontent.com/48985829/139740930-257a9b6e-17da-4e4d-8bc3-a45936d1d0cc.png)
 
 
